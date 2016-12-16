@@ -24,7 +24,7 @@ android {
     buildToolsVersion '24.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "dariox.telegrog"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -131,4 +131,4 @@ android {
     }
 }
 
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

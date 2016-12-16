@@ -3,8 +3,8 @@
 
 
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppName">Telegrog</string>
+    <string name="AppNameBeta">Telegrog Beta</string>
     <string name="LanguageName">English</string>
     <string name="LanguageNameInEnglish">English</string>
     <string name="LanguageCode">en</string>
@@ -1296,4 +1296,5 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s at %2$s</string>
+
 </resources>

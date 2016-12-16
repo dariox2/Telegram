@@ -14,6 +14,8 @@ import android.content.Intent;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
 
+import static org.telegram.messenger.BuildVars.GCM_SENDER_ID;
+
 public class GcmRegistrationIntentService extends IntentService {
 
     public GcmRegistrationIntentService() {
@@ -24,7 +26,9 @@ public class GcmRegistrationIntentService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         try {
             InstanceID instanceID = InstanceID.getInstance(this);
-            final String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId), GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
+            //final String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId), GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
+            // dja bugfix
+            final String token = instanceID.getToken(GCM_SENDER_ID, GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
             FileLog.d("tmessages", "GCM Registration Token: " + token);
             AndroidUtilities.runOnUIThread(new Runnable() {
                 @Override
