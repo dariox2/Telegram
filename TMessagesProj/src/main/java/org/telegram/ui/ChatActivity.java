@@ -1649,7 +1649,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
             });
 
             View lineView = new View(context);
-            lineView.setBackgroundColor(0xffd26c6c); // dja
+            lineView.setBackgroundColor(0xff6c9fd2);
             pinnedMessageView.addView(lineView, LayoutHelper.createFrame(2, 32, Gravity.LEFT | Gravity.TOP, 8, 8, 0, 0));
 
             pinnedMessageImageView = new BackupImageView(context);

@@ -1,0 +1,4 @@
+find TMessagesProj/src/ -type f -iname "*.java" -exec sed -i 's/e02c2c/2ca5e0/g' "{}" \;
+find TMessagesProj/src/ -type f -iname "*.xml" -exec sed -i 's/e02c2c/2ca5e0/g' "{}" \;
+find TMessagesProj/src/ -type f -iname "*.java" -exec sed -i 's/d26c6c/6c9fd2/g' "{}" \;
+find TMessagesProj/src/ -type f -iname "*.xml" -exec sed -i 's/d26c6c/6c9fd2/g' "{}" \;

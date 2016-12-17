@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# pairs of associated colors
+varlist="4d83b3 b34d4d 5695cc cc5656 4a82b5 b54a4a 4e9ad4 d44e4e 3a8ccf cf3a3a 3ec1f9 f93e3e 70b4e8 e87070 a1aab3 b3a1a1 80cbc4 cb8080 2ca5e0 e02c2c 6c9fd2 d26c6c"
+
+# Define the arrays
+myarr=(${varlist// / })
+
+# get the length of the arrays
+length=${#myarr[@]}
+
+# do the loop
+for ((i=0; i<$length; i+=2)); do
+    # WARN this example is for revert
+    echo "find TMessagesProj/src/ -type f -iname \"*.java\" -exec sed -i 's/${myarr[$i+1]}/${myarr[$i]}/g' \"{}\" \;"
+    echo "find TMessagesProj/src/ -type f -iname \"*.xml\" -exec sed -i 's/${myarr[$i+1]}/${myarr[$i]}/g' \"{}\" \;"
+done
