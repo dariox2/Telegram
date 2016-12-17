@@ -59,28 +59,28 @@ public class Theme {
     public static final int ATTACH_SHEET_TEXT_COLOR = 0xff757575;
 
     public static final int DIALOGS_MESSAGE_TEXT_COLOR = 0xff8f8f8f;
-    public static final int DIALOGS_NAME_TEXT_COLOR = 0xff4d83b3;
-    public static final int DIALOGS_ATTACH_TEXT_COLOR = 0xff4d83b3;
-    public static final int DIALOGS_PRINTING_TEXT_COLOR = 0xff4d83b3;
+    public static final int DIALOGS_NAME_TEXT_COLOR = 0xffb34d4d; // dja
+    public static final int DIALOGS_ATTACH_TEXT_COLOR = 0xffb34d4d;
+    public static final int DIALOGS_PRINTING_TEXT_COLOR = 0xffb34d4d;
     public static final int DIALOGS_DRAFT_TEXT_COLOR = 0xffdd4b39;
 
-    public static final int CHAT_UNREAD_TEXT_COLOR = 0xff5695cc;
-    public static final int CHAT_ADD_CONTACT_TEXT_COLOR = 0xff4a82b5;
+    public static final int CHAT_UNREAD_TEXT_COLOR = 0xffcc5656;
+    public static final int CHAT_ADD_CONTACT_TEXT_COLOR = 0xffb54a4a;
     public static final int CHAT_REPORT_SPAM_TEXT_COLOR = 0xffcf5957;
     public static final int CHAT_BOTTOM_OVERLAY_TEXT_COLOR = 0xff7f7f7f;
     public static final int CHAT_BOTTOM_CHAT_OVERLAY_TEXT_COLOR = 0xff3a8ccf;
     public static final int CHAT_GIF_HINT_TEXT_COLOR = 0xffffffff;
     public static final int CHAT_EMPTY_VIEW_TEXT_COLOR = 0xffffffff;
-    public static final int CHAT_SEARCH_COUNT_TEXT_COLOR = 0xff4e9ad4;
+    public static final int CHAT_SEARCH_COUNT_TEXT_COLOR = 0xffd44e4e;
 
     public static final int INAPP_PLAYER_PERFORMER_TEXT_COLOR = 0xff2f3438;
     public static final int INAPP_PLAYER_TITLE_TEXT_COLOR = 0xff2f3438;
     public static final int INAPP_PLAYER_BACKGROUND_COLOR = 0xffffffff;
 
-    public static final int REPLY_PANEL_NAME_TEXT_COLOR = 0xff3a8ccf;
+    public static final int REPLY_PANEL_NAME_TEXT_COLOR = 0xffcf3a3a;
     public static final int REPLY_PANEL_MESSAGE_TEXT_COLOR = 0xff222222;
 
-    public static final int ALERT_PANEL_NAME_TEXT_COLOR = 0xff3a8ccf;
+    public static final int ALERT_PANEL_NAME_TEXT_COLOR = 0xffcf3a3a;
     public static final int ALERT_PANEL_MESSAGE_TEXT_COLOR = 0xff999999;
 
     public static final int AUTODOWNLOAD_SHEET_SAVE_TEXT_COLOR = 0xff3a8ccf;
@@ -88,8 +88,8 @@ public class Theme {
     public static final int JOIN_SHEET_NAME_TEXT_COLOR = 0xff212121;
     public static final int JOIN_SHEET_COUNT_TEXT_COLOR = 0xff999999;
 
-    public static final int SHARE_SHEET_COPY_TEXT_COLOR = 0xff3a8ccf;
-    public static final int SHARE_SHEET_SEND_TEXT_COLOR = 0xff3ec1f9;
+    public static final int SHARE_SHEET_COPY_TEXT_COLOR = 0xffcf3a3a;
+    public static final int SHARE_SHEET_SEND_TEXT_COLOR = 0xfff93e3e;
     public static final int SHARE_SHEET_SEND_DISABLED_TEXT_COLOR = 0xffb3b3b3;
     public static final int SHARE_SHEET_EDIT_TEXT_COLOR = 0xff212121;
     public static final int SHARE_SHEET_EDIT_PLACEHOLDER_TEXT_COLOR = 0xff979797;
@@ -101,7 +101,7 @@ public class Theme {
     public static final int STICKERS_SHEET_CLOSE_TEXT_COLOR = 0xff3a8ccf;
     public static final int STICKERS_SHEET_REMOVE_TEXT_COLOR = 0xffcd5a5a;
 
-    public static final int PINNED_PANEL_NAME_TEXT_COLOR = 0xff3a8ccf;
+    public static final int PINNED_PANEL_NAME_TEXT_COLOR = 0xffcf3a3a;
     public static final int PINNED_PANEL_MESSAGE_TEXT_COLOR = 0xff999999;
 
     public static final int SECRET_CHAT_INFO_TEXT_COLOR = 0xffffffff;
@@ -118,10 +118,10 @@ public class Theme {
     public static final int MSG_IN_VIA_BOT_NAME_TEXT_COLOR = 0xff3a8ccf;
     public static final int MSG_OUT_VIA_BOT_NAME_TEXT_COLOR = 0xff55ab4f;
     public static final int MSG_STICKER_VIA_BOT_NAME_TEXT_COLOR = 0xffffffff;
-    public static final int MSG_IN_REPLY_LINE_COLOR = 0xff70b4e8;
+    public static final int MSG_IN_REPLY_LINE_COLOR = 0xffe87070;
     public static final int MSG_OUT_REPLY_LINE_COLOR = 0xff88c97b;
     public static final int MSG_STICKER_REPLY_LINE_COLOR = 0xffffffff;
-    public static final int MSG_IN_REPLY_NAME_TEXT_COLOR = 0xff3a8ccf;
+    public static final int MSG_IN_REPLY_NAME_TEXT_COLOR = 0xffcf3a3a;
     public static final int MSG_OUT_REPLY_NAME_TEXT_COLOR = 0xff55ab4f;
     public static final int MSG_STICKER_REPLY_NAME_TEXT_COLOR = 0xffffffff;
     public static final int MSG_IN_REPLY_MESSAGE_TEXT_COLOR = 0xff000000;
@@ -145,7 +145,7 @@ public class Theme {
     public static final int MSG_IN_AUDIO_SELECTED_PROGRESS_COLOR = 0xffe2f8ff;
     public static final int MSG_OUT_AUDIO_SELECTED_PROGRESS_COLOR = 0xffd4f5bc;
     public static final int MSG_MEDIA_TIME_TEXT_COLOR = 0xffffffff;
-    public static final int MSG_IN_TIME_TEXT_COLOR = 0xffa1aab3;
+    public static final int MSG_IN_TIME_TEXT_COLOR = 0xffb3a1a1;
     public static final int MSG_OUT_TIME_TEXT_COLOR = 0xff70b15c;
     public static final int MSG_IN_TIME_SELECTED_TEXT_COLOR = 0xff89b4c1;
     public static final int MSG_OUT_TIME_SELECTED_TEXT_COLOR = 0xff70b15c;
