@@ -1055,8 +1055,8 @@ public class LoginActivity extends BaseFragment {
 
             public ProgressView(Context context) {
                 super(context);
-                paint.setColor(0xfff2e1e1);
-                paint2.setColor(0xffd06262);
+                paint.setColor(0xffe1eaf2);
+                paint2.setColor(0xff62a0d0);
             }
 
             public void setProgress(float value) {
