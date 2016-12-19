@@ -359,7 +359,7 @@ public class LocationActivity extends BaseFragment implements NotificationCenter
 
             distanceTextView = new TextView(context);
             distanceTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
-            distanceTextView.setTextColor(0xff2f8cc9);
+            distanceTextView.setTextColor(0xffc92f2f);
             distanceTextView.setMaxLines(1);
             distanceTextView.setEllipsize(TextUtils.TruncateAt.END);
             distanceTextView.setSingleLine(true);

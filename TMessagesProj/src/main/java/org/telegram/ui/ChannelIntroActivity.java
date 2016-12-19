@@ -130,7 +130,7 @@ public class ChannelIntroActivity extends BaseFragment {
         viewGroup.addView(descriptionText);
 
         createChannelText = new TextView(context);
-        createChannelText.setTextColor(0xff4c8eca);
+        createChannelText.setTextColor(0xffca4c4c);
         createChannelText.setGravity(Gravity.CENTER);
         createChannelText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
         createChannelText.setTypeface(AndroidUtilities.getTypeface("fonts/rmedium.ttf"));

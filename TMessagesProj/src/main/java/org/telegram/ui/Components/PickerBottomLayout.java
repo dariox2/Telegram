@@ -42,7 +42,7 @@ public class PickerBottomLayout extends FrameLayout {
 
         cancelButton = new TextView(context);
         cancelButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
-        cancelButton.setTextColor(isDarkTheme ? 0xffffffff : 0xff19a7e8);
+        cancelButton.setTextColor(isDarkTheme ? 0xffffffff : 0xffe81919);
         cancelButton.setGravity(Gravity.CENTER);
         cancelButton.setBackgroundDrawable(Theme.createBarSelectorDrawable(isDarkTheme ? Theme.ACTION_BAR_PICKER_SELECTOR_COLOR : Theme.ACTION_BAR_AUDIO_SELECTOR_COLOR, false));
         cancelButton.setPadding(AndroidUtilities.dp(29), 0, AndroidUtilities.dp(29), 0);
@@ -68,7 +68,7 @@ public class PickerBottomLayout extends FrameLayout {
 
         doneButtonTextView = new TextView(context);
         doneButtonTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
-        doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xff19a7e8);
+        doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xffe81919);
         doneButtonTextView.setGravity(Gravity.CENTER);
         doneButtonTextView.setCompoundDrawablePadding(AndroidUtilities.dp(8));
         doneButtonTextView.setText(LocaleController.getString("Send", R.string.Send).toUpperCase());
@@ -84,13 +84,13 @@ public class PickerBottomLayout extends FrameLayout {
                 doneButtonTextView.setTextColor(0xff999999);
                 doneButton.setEnabled(false);
             } else {
-                doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xff19a7e8);
+                doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xffe81919);
             }
         } else {
             doneButtonBadgeTextView.setVisibility(View.VISIBLE);
             doneButtonBadgeTextView.setText(String.format("%d", count));
 
-            doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xff19a7e8);
+            doneButtonTextView.setTextColor(isDarkTheme ? 0xffffffff : 0xffe81919);
             if (disable) {
                 doneButton.setEnabled(true);
             }

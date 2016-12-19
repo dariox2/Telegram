@@ -103,7 +103,7 @@ public class SessionCell extends FrameLayout {
         nameTextView.setText(String.format(Locale.US, "%s %s", session.app_name, session.app_version));
         if ((session.flags & 1) != 0) {
             onlineTextView.setText(LocaleController.getString("Online", R.string.Online));
-            onlineTextView.setTextColor(0xff2f8cc9);
+            onlineTextView.setTextColor(0xffc92f2f);
         } else {
             onlineTextView.setText(LocaleController.stringForMessageListDate(session.date_active));
             onlineTextView.setTextColor(0xff999999);

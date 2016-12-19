@@ -584,7 +584,7 @@ public class ChannelEditActivity extends BaseFragment implements AvatarUpdater.A
                 }
             });
             typeCell.setTextColor(0xff212121);
-            typeCell.setTextValueColor(0xff2f8cc9);
+            typeCell.setTextValueColor(0xffc92f2f);
         } else {
             typeCell.setOnClickListener(null);
             typeCell.setTextColor(0xffa8a8a8);

@@ -35,7 +35,7 @@ public class TextCell extends FrameLayout {
         addView(textView);
 
         valueTextView = new SimpleTextView(context);
-        valueTextView.setTextColor(0xff2f8cc9);
+        valueTextView.setTextColor(0xffc92f2f);
         valueTextView.setTextSize(16);
         valueTextView.setGravity(LocaleController.isRTL ? Gravity.LEFT : Gravity.RIGHT);
         addView(valueTextView);

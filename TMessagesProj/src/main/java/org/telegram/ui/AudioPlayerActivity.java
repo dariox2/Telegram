@@ -208,7 +208,7 @@ public class AudioPlayerActivity extends BaseFragment implements NotificationCen
 
         timeTextView = new TextView(context);
         timeTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
-        timeTextView.setTextColor(0xff19a7e8);
+        timeTextView.setTextColor(0xffe81919);
         timeTextView.setGravity(Gravity.CENTER);
         timeTextView.setText("0:00");
         seekBarContainer.addView(timeTextView, LayoutHelper.createFrame(44, LayoutHelper.MATCH_PARENT, Gravity.TOP | Gravity.LEFT));
