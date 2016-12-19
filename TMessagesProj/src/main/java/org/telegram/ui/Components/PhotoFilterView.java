@@ -1756,7 +1756,7 @@ public class PhotoFilterView extends FrameLayout {
 
         doneTextView = new TextView(context);
         doneTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
-        doneTextView.setTextColor(0xff51bdf3);
+        doneTextView.setTextColor(0xfff35151);
         doneTextView.setGravity(Gravity.CENTER);
         doneTextView.setBackgroundDrawable(Theme.createBarSelectorDrawable(Theme.ACTION_BAR_PICKER_SELECTOR_COLOR, false));
         doneTextView.setPadding(AndroidUtilities.dp(20), 0, AndroidUtilities.dp(20), 0);
@@ -2062,7 +2062,7 @@ public class PhotoFilterView extends FrameLayout {
         blurOffButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_off_active, 0, 0);
         blurOffButton.setCompoundDrawablePadding(AndroidUtilities.dp(2));
         blurOffButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 13);
-        blurOffButton.setTextColor(0xff51bdf3);
+        blurOffButton.setTextColor(0xfff35151);
         blurOffButton.setGravity(Gravity.CENTER_HORIZONTAL);
         blurOffButton.setText(LocaleController.getString("BlurOff", R.string.BlurOff));
         blurLayout.addView(blurOffButton, LayoutHelper.createFrame(80, 60));
@@ -2129,7 +2129,7 @@ public class PhotoFilterView extends FrameLayout {
     private void updateSelectedBlurType() {
         if (blurType == 0) {
             blurOffButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_off_active, 0, 0);
-            blurOffButton.setTextColor(0xff51bdf3);
+            blurOffButton.setTextColor(0xfff35151);
             blurRadialButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_radial, 0, 0);
             blurRadialButton.setTextColor(0xffffffff);
             blurLinearButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_linear, 0, 0);
@@ -2138,7 +2138,7 @@ public class PhotoFilterView extends FrameLayout {
             blurOffButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_off, 0, 0);
             blurOffButton.setTextColor(0xffffffff);
             blurRadialButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_radial_active, 0, 0);
-            blurRadialButton.setTextColor(0xff51bdf3);
+            blurRadialButton.setTextColor(0xfff35151);
             blurLinearButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_linear, 0, 0);
             blurLinearButton.setTextColor(0xffffffff);
         } else if (blurType == 2) {
@@ -2147,7 +2147,7 @@ public class PhotoFilterView extends FrameLayout {
             blurRadialButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_radial, 0, 0);
             blurRadialButton.setTextColor(0xffffffff);
             blurLinearButton.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.blur_linear_active, 0, 0);
-            blurLinearButton.setTextColor(0xff51bdf3);
+            blurLinearButton.setTextColor(0xfff35151);
         }
     }
 

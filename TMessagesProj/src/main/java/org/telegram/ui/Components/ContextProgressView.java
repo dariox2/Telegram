@@ -33,10 +33,10 @@ public class ContextProgressView extends View {
         outerPaint.setStrokeCap(Paint.Cap.ROUND);
 
         if (colorType == 0) {
-            innerPaint.setColor(0xffbfdff6);
-            outerPaint.setColor(0xff2b96e2);
+            innerPaint.setColor(0xfff6bfbf);
+            outerPaint.setColor(0xffe22b2b);
         } else {
-            innerPaint.setColor(0xffbfdff6);
+            innerPaint.setColor(0xfff6bfbf);
             outerPaint.setColor(0xffffffff);
         }
     }

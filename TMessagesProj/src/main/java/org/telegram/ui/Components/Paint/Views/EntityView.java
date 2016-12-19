@@ -269,7 +269,7 @@ public class EntityView extends FrameLayout {
 
             paint.setColor(0xffffffff);
 
-            dotPaint.setColor(0xff3ccaef);
+            dotPaint.setColor(0xffef3c3c);
             dotStrokePaint.setColor(0xffffffff);
             dotStrokePaint.setStyle(Paint.Style.STROKE);
             dotStrokePaint.setStrokeWidth(AndroidUtilities.dp(1));

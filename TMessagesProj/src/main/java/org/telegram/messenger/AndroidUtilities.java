@@ -1311,7 +1311,7 @@ public class AndroidUtilities {
                 builder.append(" ");
             }
             query = query.trim();
-            builder.append(AndroidUtilities.replaceTags("<c#ff4d83b3>" + query + "</c>"));
+            builder.append(AndroidUtilities.replaceTags("<c#ffb34d4d>" + query + "</c>"));
 
             lastIndex = end;
         }

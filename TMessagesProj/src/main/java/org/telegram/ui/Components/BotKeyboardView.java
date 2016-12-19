@@ -48,7 +48,7 @@ public class BotKeyboardView extends LinearLayout {
         container.setOrientation(VERTICAL);
         scrollView.addView(container);
 
-        setBackgroundColor(0xfff5f6f7);
+        setBackgroundColor(0xfff7f5f5);
     }
 
     public void setDelegate(BotKeyboardViewDelegate botKeyboardViewDelegate) {
@@ -102,7 +102,7 @@ public class BotKeyboardView extends LinearLayout {
                     TLRPC.KeyboardButton button = row.buttons.get(b);
                     TextView textView = new TextView(getContext());
                     textView.setTag(button);
-                    textView.setTextColor(0xff36474f);
+                    textView.setTextColor(0xff4f3636);
                     textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
                     textView.setGravity(Gravity.CENTER);
                     textView.setBackgroundResource(R.drawable.bot_keyboard_states);

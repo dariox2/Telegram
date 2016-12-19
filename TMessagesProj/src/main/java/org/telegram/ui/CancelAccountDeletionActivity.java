@@ -418,8 +418,8 @@ public class CancelAccountDeletionActivity extends BaseFragment {
 
             public ProgressView(Context context) {
                 super(context);
-                paint.setColor(0xffe1eaf2);
-                paint2.setColor(0xff62a0d0);
+                paint.setColor(0xfff2e1e1);
+                paint2.setColor(0xffd06262);
             }
 
             public void setProgress(float value) {
@@ -555,7 +555,7 @@ public class CancelAccountDeletionActivity extends BaseFragment {
             problemText.setText(LocaleController.getString("DidNotGetTheCode", R.string.DidNotGetTheCode));
             problemText.setGravity(LocaleController.isRTL ? Gravity.RIGHT : Gravity.LEFT);
             problemText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
-            problemText.setTextColor(0xff4d83b3);
+            problemText.setTextColor(0xffb34d4d);
             problemText.setLineSpacing(AndroidUtilities.dp(2), 1.0f);
             problemText.setPadding(0, AndroidUtilities.dp(2), 0, AndroidUtilities.dp(12));
             addView(problemText, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, LocaleController.isRTL ? Gravity.RIGHT : Gravity.LEFT, 0, 20, 0, 0));

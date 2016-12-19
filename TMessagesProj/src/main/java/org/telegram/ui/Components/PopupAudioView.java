@@ -167,7 +167,7 @@ public class PopupAudioView extends BaseCell implements SeekBar.SeekBarDelegate,
         canvas.restore();
 
         int state = buttonState + 4;
-        timePaint.setColor(0xffa1aab3);
+        timePaint.setColor(0xffb3a1a1);
         Drawable buttonDrawable = statesDrawable[state][buttonPressed];
         int side = AndroidUtilities.dp(36);
         int x = (side - buttonDrawable.getIntrinsicWidth()) / 2;

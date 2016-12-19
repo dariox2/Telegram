@@ -55,7 +55,7 @@ public class ShareDialogCell extends FrameLayout {
         checkBox.setSize(24);
         checkBox.setCheckOffset(AndroidUtilities.dp(1));
         checkBox.setVisibility(VISIBLE);
-        checkBox.setColor(0xff3ec1f9);
+        checkBox.setColor(0xfff93e3e);
         addView(checkBox, LayoutHelper.createFrame(24, 24, Gravity.CENTER_HORIZONTAL | Gravity.TOP, 17, 39, 0, 0));
     }
 

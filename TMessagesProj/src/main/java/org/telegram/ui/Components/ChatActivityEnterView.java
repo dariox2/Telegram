@@ -448,7 +448,7 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
 
         public RecordCircle(Context context) {
             super(context);
-            paint.setColor(0xff5795cc);
+            paint.setColor(0xffcc5757);
             paintRecord.setColor(0x0d000000);
             micDrawable = getResources().getDrawable(R.drawable.mic_pressed);
         }

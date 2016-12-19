@@ -43,7 +43,7 @@ public class PhotoPickerPhotoCell extends FrameLayout {
         checkBox.setSize(30);
         checkBox.setCheckOffset(AndroidUtilities.dp(1));
         checkBox.setDrawBackground(true);
-        checkBox.setColor(0xff3ccaef);
+        checkBox.setColor(0xffef3c3c);
         addView(checkBox, LayoutHelper.createFrame(30, 30, Gravity.RIGHT | Gravity.TOP, 0, 4, 4, 0));
     }
 

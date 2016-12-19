@@ -486,7 +486,7 @@ public class ChatAttachAlert extends BottomSheet implements NotificationCenter.N
         listView.setAdapter(adapter = new ListAdapter(context));
         listView.setVerticalScrollBarEnabled(false);
         listView.setEnabled(true);
-        listView.setGlowColor(0xfff5f6f7);
+        listView.setGlowColor(0xfff7f5f5);
         listView.addItemDecoration(new RecyclerView.ItemDecoration() {
             @Override
             public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {

@@ -254,7 +254,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
             launchLayout.addView(rightActionBarLayout);
 
             shadowTabletSide = new FrameLayout(this);
-            shadowTabletSide.setBackgroundColor(0x40295274);
+            shadowTabletSide.setBackgroundColor(0x40742929);
             launchLayout.addView(shadowTabletSide);
 
             shadowTablet = new FrameLayout(this);

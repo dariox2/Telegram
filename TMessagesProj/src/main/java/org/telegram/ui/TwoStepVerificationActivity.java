@@ -259,7 +259,7 @@ public class TwoStepVerificationActivity extends BaseFragment implements Notific
         linearLayout2.setLayoutParams(layoutParams3);
 
         bottomButton = new TextView(context);
-        bottomButton.setTextColor(0xff4d83b3);
+        bottomButton.setTextColor(0xffb34d4d);
         bottomButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
         bottomButton.setGravity((LocaleController.isRTL ? Gravity.RIGHT : Gravity.LEFT) | Gravity.BOTTOM);
         bottomButton.setText(LocaleController.getString("YourEmailSkip", R.string.YourEmailSkip));

@@ -50,7 +50,7 @@ public class RadioCell extends FrameLayout {
 
         radioButton = new RadioButton(context);
         radioButton.setSize(AndroidUtilities.dp(20));
-        radioButton.setColor(0xffb3b3b3, 0xff37a9f0);
+        radioButton.setColor(0xffb3b3b3, 0xfff03737);
         addView(radioButton, LayoutHelper.createFrame(22, 22, (LocaleController.isRTL ? Gravity.LEFT : Gravity.RIGHT) | Gravity.TOP, (LocaleController.isRTL ? 18 : 0), 13, (LocaleController.isRTL ? 0 : 18), 0));
     }
 

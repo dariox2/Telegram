@@ -1626,7 +1626,7 @@ public class NotificationsController {
                     .setContentIntent(contentIntent)
                     .setGroup("messages")
                     .setGroupSummary(true)
-                    .setColor(0xff2ca5e0);
+                    .setColor(0xffe02c2c);
 
             mBuilder.setCategory(NotificationCompat.CATEGORY_MESSAGE);
             if (chat == null && user != null && user.phone != null && user.phone.length() > 0) {
@@ -1925,7 +1925,7 @@ public class NotificationsController {
                     .setContentText(text)
                     .setAutoCancel(true)
                     .setNumber(messageObjects.size())
-                    .setColor(0xff2ca5e0)
+                    .setColor(0xffe02c2c)
                     .setGroupSummary(false)
                     .setWhen(((long) messageObjects.get(0).messageOwner.date) * 1000)
                     .setStyle(messagingStyle)

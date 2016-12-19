@@ -49,7 +49,7 @@ public class FeaturedStickerSetInfoCell extends FrameLayout {
 
         @Override
         public void draw(Canvas canvas) {
-            paint.setColor(0xff4da6ea);
+            paint.setColor(0xffea4d4d);
             canvas.drawCircle(AndroidUtilities.dp(8), 0, AndroidUtilities.dp(4), paint);
         }
 

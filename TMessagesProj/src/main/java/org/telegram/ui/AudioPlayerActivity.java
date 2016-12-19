@@ -72,7 +72,7 @@ public class AudioPlayerActivity extends BaseFragment implements NotificationCen
             innerPaint1.setColor(0x19000000);
 
             outerPaint1 = new Paint(Paint.ANTI_ALIAS_FLAG);
-            outerPaint1.setColor(0xff23afef);
+            outerPaint1.setColor(0xffef2323);
 
             thumbWidth = AndroidUtilities.dp(24);
             thumbHeight = AndroidUtilities.dp(24);
@@ -226,7 +226,7 @@ public class AudioPlayerActivity extends BaseFragment implements NotificationCen
         progressView = new LineProgressView(context);
         progressView.setVisibility(View.INVISIBLE);
         progressView.setBackgroundColor(0x19000000);
-        progressView.setProgressColor(0xff23afef);
+        progressView.setProgressColor(0xffef2323);
         seekBarContainer.addView(progressView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 2, Gravity.CENTER_VERTICAL | Gravity.LEFT, 44, 0, 44, 0));
 
         FrameLayout bottomView = new FrameLayout(context) {

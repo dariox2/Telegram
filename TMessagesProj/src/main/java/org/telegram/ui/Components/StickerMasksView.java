@@ -110,7 +110,7 @@ public class StickerMasksView extends FrameLayout implements NotificationCenter.
             }
         };
         stickersGridView.setOnItemClickListener(stickersOnItemClickListener);
-        stickersGridView.setGlowColor(0xfff5f6f7);
+        stickersGridView.setGlowColor(0xfff7f5f5);
         addView(stickersGridView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT, Gravity.LEFT | Gravity.TOP, 0, 48, 0, 0));
 
         stickersEmptyView = new TextView(context);
@@ -122,7 +122,7 @@ public class StickerMasksView extends FrameLayout implements NotificationCenter.
         scrollSlidingTabStrip = new ScrollSlidingTabStrip(context);
         scrollSlidingTabStrip.setBackgroundColor(0xff000000);
         scrollSlidingTabStrip.setUnderlineHeight(AndroidUtilities.dp(1));
-        scrollSlidingTabStrip.setIndicatorColor(0xff62bfe8);
+        scrollSlidingTabStrip.setIndicatorColor(0xffe86262);
         scrollSlidingTabStrip.setUnderlineColor(0xff1a1a1a);
         scrollSlidingTabStrip.setIndicatorHeight(AndroidUtilities.dp(1) + 1);
         addView(scrollSlidingTabStrip, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.LEFT | Gravity.TOP));
